@@ -20,8 +20,8 @@ function Show-Banner {
    Write-Host " __     __ _______ _    _  _____   ____   ____   " -ForegroundColor Blue
    Write-Host " \ \   / /__   __| |  | |/ ____| / __ \ / __ \  " -ForegroundColor Blue
    Write-Host "  \ \_/ /   | |  | |__| | (___  | |  | | |  | | " -ForegroundColor Blue
-   Write-Host "   \   /    | |  |  __  | \___ \ | |  | | |  | | " -ForegroundColor Blue
-   Write-Host "    | |     | |  | |  | | ____) || |__| | |__| | " -ForegroundColor Blue
+   Write-Host "   \   /    | |  |  __  | \___ \ | |  | | |   " -ForegroundColor Blue
+   Write-Host "    | |     | |  | |  | | ____) || |__| | |__ " -ForegroundColor Blue
    Write-Host "    |_|     |_|  |_|  |_|_____/  \____/ \____/  " -ForegroundColor Blue
    Write-Host
    Write-Host "  -------------------- YTHSOC Simulator --------------------" -ForegroundColor Green
